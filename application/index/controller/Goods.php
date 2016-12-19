@@ -126,7 +126,7 @@ class  Goods extends Auth
           return  " 
             <div class=jjg_foods_show_$id>
                 <div class='showitems'>
-	                <div class='jjg_foods_show_big'><a target='_blank' href='http://www.iceicewz.cn/goods/detailGoods/gid/$idss[0]'>
+	                <div class='jjg_foods_show_big'><a target='_blank' href='http://www.iceicewz.cn/index/goods/detailGoods/gid/$idss[0]'>
 	                <img src=$shows[0]></a></div>
 	                <div class='jjg_foods_show_small '><a target='_blank' href='http://www.iceicewz.cn/index/goods/detailGoods/gid/$idss[1]'><img src=$shows[1]></a></div>
 	                <div class='jjg_foods_show_small '><a target='_blank' href='http://www.iceicewz.cn/index/goods/detailGoods/gid/$idss[2]'><img src=$shows[2]></a></div>
