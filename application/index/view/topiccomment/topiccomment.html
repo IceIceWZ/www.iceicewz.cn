@@ -27,7 +27,7 @@
 	<li class="postitem_li clearfix" id="post_1655605">
 	<div class="left">
 		<strong class="username">
-			<a href="__SITE__/index/space/space/user_id/{$v->user->id}">{$v->user->username}</a>
+			<a href="__SITE__/index/space/space/user_id/{$v->user->id}">{$v->user['username']}</a>
 			<a target="_blank" class="v_small mt13" href="#" title="达人" _hover-ignore="1"></a>
 						
 		</strong> 
@@ -37,7 +37,7 @@
 	<a class="followTa fl" href="####" uid="113291"></a>
 	<a onclick="send_sixin(113291)" href="javascript:void(0);" class="messageBtn mr10 fl">发私信</a>
 	</div> -->
-		<div class="info clearfix"><span>发帖 {$v->user->topic_num}</span>
+		<div class="info clearfix"><span>发帖 {$v->user['topic_num']}</span>
 		</div>
 	</div>
 	<div class="right">
