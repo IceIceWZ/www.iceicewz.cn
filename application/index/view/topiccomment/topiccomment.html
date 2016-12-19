@@ -27,12 +27,12 @@
 	<li class="postitem_li clearfix" id="post_1655605">
 	<div class="left">
 		<strong class="username">
-			<a href="__SITE__/index/space/space/user_id/{$v->user->id}">{$v->user['username']}</a>
+			<a href="__SITE__/index/space/space/user_id/{$v->user['id']}">{$v->user['username']}</a>
 			<a target="_blank" class="v_small mt13" href="#" title="达人" _hover-ignore="1"></a>
 						
 		</strong> 
-		<a href="__SITE__/index/space/space/user_id/{$v->user->id}" class="avatar">
-		<div class="lzcorner"></div><img src="{$v->user->photo}" /></a>
+		<a href="__SITE__/index/space/space/user_id/{$v->user['id']}" class="avatar">
+		<div class="lzcorner"></div><img src="{$v->user['photo']}" /></a>
 	<!-- 	<div class="btn">
 	<a class="followTa fl" href="####" uid="113291"></a>
 	<a onclick="send_sixin(113291)" href="javascript:void(0);" class="messageBtn mr10 fl">发私信</a>
@@ -45,7 +45,7 @@
 		<span>发表于 {$v->create_time}</span>
 		<span>最后修改  {$v->update_time}</span>
 			 
-		<a href="__SITE__/index/space/space/user_id/{$v->user->id}">只看该作者</a>
+		<a href="__SITE__/index/space/space/user_id/{$v->user['id']}">只看该作者</a>
 		<em>楼主</em>
         </div>
     
@@ -90,14 +90,14 @@
 	<li class="postitem_li clearfix" id="post_1655726">
 	<div class="left">
 		<strong class="username">
-			<a href="__SITE__/index/space/space/user_id/{$v->users->id}">{$v->users->username}</a>
+			<a href="__SITE__/index/space/space/user_id/{$v->users['id']}">{$v->users['username']}</a>
 			<a target="_blank" class="v_small mt13" href="__SITE__/index/space/space/user_id/{$v->users->id}" title="达人" _hover-ignore="1"></a>
 						
 		</strong> 
 		<a href="__SITE__/index/space/space/user_id/{$v->users->id}" class="avatar"><img src="{$v->users->photo}" /></a>
 		<!-- <div class="btn"><a class="followTa fl" href="####" uid="3484135"></a><a onclick="send_sixin(3484135)" href="javascript:void(0);" class="messageBtn mr10 fl">发私信</a>
 		</div> -->
-		<div class="info clearfix"><span>发帖 {$v->users->topic_num}</span> 
+		<div class="info clearfix"><span>发帖 {$v->users['topic_num']}</span> 
 		<!-- <span>关注 {/$v->users->focus_num}</span> 
 		<span>粉丝 {/$v->users->fans_num}</span>  -->
 		<!-- <span>注册 {/$v->users->create_time}</span> -->
@@ -106,7 +106,7 @@
 	<div class="right">
 	<div class="bar"><span>发表于 {$v->create_time}</span>
 			 
-		<a href="__SITE__/index/space/space/user_id/{$v->users->id}">只看该作者</a>
+		<a href="__SITE__/index/space/space/user_id/{$v->users['id']}">只看该作者</a>
 		
 		<span style="display:none">{$i++}</span>
 		{if $i==1}
